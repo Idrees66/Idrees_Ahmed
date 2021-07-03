@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styleE.css">
+
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- CSS Libraries -->
+        <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet"> -->
+
+
+        <!-- <link href="assets/lib/animate/animate.min.css" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+        <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Idrees Portfolio</title>
+        <style>
+            #hbg{
+                /* background-color: rgb(242,218,170); */
+                background-color: #E5E4E5;
+                /* background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png"); */
+                /* width:100vw; */
+                width: 100%;
+            }
+            #work{
+                /*  */
+                background-color: white;
+                background-attachment: fixed;
+                /* background: linear-gradient(rgba(245,245,245,0.95), rgba(245,245,245,0.95)), url(./assets/img/cubes.png); */
+                /* background-color: #ffffff; */
+/* background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png"); */
+/* background-image: url(./assets/img/work2.jpg); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+                width: 100%;
+            }
+            #projectTitle{
+                color:chocolate;
+                /* padding-left: 30px; */
+                /* font-weight: bold; */
+                padding-top: 10px;
+                text-align: center;
+                font-size: 20px;
+                align-self: center;
+                font-family: 'Roboto', cursive;
+               
+            }
+            #contact_text{
+                /* width:60%; */
+                /* background-color: blanchedalmond; */
+                /* padding-left: 10%; */
+                text-align: center;
+                text-overflow: clip;
+                /* height:30px; */
+                /* overflow: hidden; */
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            AOS.init();
+          </script>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Idrees Ahmed</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <div id="hbg">
+            <section class="home bd-grid" id="home"  >
+                <div class="home__data">
+                    <h1 class="home__title ">Hi,<br>I'am <span class="home__title-color ">Idrees</span><br> Mobile App Developer</h1>
+                    <!-- <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div> -->
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/idrees-ahmed-aa71491b6" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.behance.net/idrees_ahmed" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">   
+                    <!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FF0066" d="M51.2,-60.9C67.2,-47.7,81.4,-32.3,83.2,-15.6C85.1,1.1,74.6,19.1,63,33.6C51.3,48.2,38.5,59.3,23.7,64.4C8.9,69.4,-7.8,68.4,-24,63.5C-40.2,58.7,-55.9,50,-63.1,36.8C-70.2,23.6,-68.9,5.8,-67.1,-13.1C-65.2,-31.9,-62.8,-52,-51.5,-66C-40.3,-80.1,-20.1,-88.2,-1.2,-86.7C17.6,-85.2,35.3,-74.2,51.2,-60.9Z" transform="translate(100 100)" >
+                            
+                        </path>
+                       
+                    </svg>  -->
+                    <img src="assets/img/Idrees.png" alt="" />  
+                </div>
+            </section>
+        </div>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/Idrees.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Idrees</h2>
+                        <p class="about__text">An Enthusiastic Software Engineer who is passionate about 
+                            coding and design. For the past 1.5 years, I have been working 
+                            on React Native and have worked on multiple mobile apps. I 
+                            have worked on React Native, Firebase, JavaScript, React.JS, 
+                            Node.js..</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>  
+                        <!-- <p class="skills__text">I am full Stack App Developer having following skills</p> -->
+                      
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">React Native</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+             
+                                <svg xmlns="http://www.w3.org/2000/svg" class="skills__icon" width="28" height="28" viewBox="0 0 28 28" style="fill:chocolate;transform:;-ms-filter:"><path d="M5.239,15.063L7.21,2.381c0.03-0.193,0.18-0.346,0.372-0.378C7.773,1.97,7.965,2.064,8.057,2.236l2.12,3.979 L5.239,15.063z M19.24,18.14L17.363,6.469c-0.028-0.167-0.147-0.305-0.309-0.357s-0.338-0.009-0.457,0.111L4.76,18.14l6.55,3.691 c0.411,0.23,0.912,0.23,1.323,0L19.24,18.14z M13.917,7.955L12.4,5.052c-0.078-0.149-0.232-0.243-0.4-0.243s-0.322,0.094-0.4,0.243 L4.939,16.989L13.917,7.955z"></path></svg>
+                                <span class="skills__name">Firebase</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-nodejs skills__icon' ></i>
+                                <!-- <i class='bx bxl-nodejs' ></i> -->
+                                <span class="skills__name">Node.JS</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">React.JS</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">AR.JS</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center">              
+                        <img src="assets/img/g3.png" alt="" width="80%" style="padding-left: 50px;" class="skills__img ">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Others</h2> 
+
+                <div class="skills__container2 bd-grid">
+                    <div class="skills__box2">
+                        <h3 class="skills__subtitle2">Development</h3>
+                        <span class="skills__name2">Html</span>
+                        <span class="skills__name2">CSS</span>
+                        <span class="skills__name2">Javascript</span>
+                        <span class="skills__name2">Bootstrap</span>
+                        <!-- <span class="skills__name2">React</span> -->
+                        <span class="skills__name2">Python</span>
+                        
+                        <h3 class="skills__subtitle2">Databases</h3>
+                        <span class="skills__name2">Firebase</span>
+                        <span class="skills__name2">MongoDB</span>
+                        <span class="skills__name2">MySQL</span>
+                    </div>
+
+                    <div class="skills__img2">
+                        <img src="assets/img/wall1.jpg"  alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                <!-- <h2>Education</h2> -->
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/116443435/Poshish-Mobile-App" target="_blank">
+                            <img src="assets/img/t1.PNG" alt="">
+                        </a>
+                        <p id="projectTitle">Poshish Mobile App</p>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/116167621/Moodle" target="_blank" >
+                            <img src="assets/img/t2.PNG" alt="">
+                        </a>
+                        <h3 id="projectTitle">Moodle Exchange App</p>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/115930015/Shopping-Store" target="_blank" >
+                            <img src="assets/img/t3.PNG" alt="">
+                        </a>
+                        <p id="projectTitle">Kshkaat E-Commerce App</p>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/115721225/Shoe-Store-E-commerce-Application" target="_blank" >
+                            <img src="assets/img/t4cop.PNG" alt="">
+                        </a>
+                        <p id="projectTitle">Shoe Store E-commerce App</p>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/104565689/Furniture-Shop-App" target="_blank" >
+                            <img src="assets/img/t5.PNG" alt="">
+                        </a>
+                        <p id="projectTitle">Furniture Shop App</p>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/104767675/Music-App-design" target="_blank" >
+                            <img src="assets/img/t6.PNG" alt="">
+                        </a>
+                        <p id="projectTitle">Music App</p>
+                    </div>
+                </div>
+            </section>
+
+
+        <!--  ====================== Start Services Area =============================  -->
+
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center  d-flex justify-content-center">
+                        <!-- <h1 class="text-uppercase title-text">Services Offers</h1> -->
+                        <h2 class="section-title">Work Experience</h2>
+                        <!-- <p >
+                            I offered my services in the following companies
+                        </p> -->
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <div class="services" id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/services/s2.png" alt="Services-1" class="text-center">
+                                    <!-- <i class='bx bxl-react skills__icon'></i> -->
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title  ">React Native Developer</h5>
+                                    <p class="card-text text-secondary font-roboto">
+                                      at SmartUP Technologies (Pvt) Ltd,
+                                    </p>
+                                    <p class="card-text text-secondary font-roboto">
+                                        National Science & Technology Park (NSTP), NUST, ISB.
+                                      </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 text-center d-flex justify-content-center" >
+                            <div class="services"  id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/services/s3.png" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title ">Front End Developer</h5>
+                                    <p class="card-text text-secondary font-roboto">
+                                        Worked for clkSoft as a Front End React Native 
+                                        Developer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--  ====================== End Services Area =============================  -->
+
+
+        
+         <!-- Experience Start -->
+         <div class="experience" id="education">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" >
+                    <p>My qualification</p>
+                    <h2>Education</h2>
+                    <!-- <span style="padding-top: 90px;">.</span> -->
+                    <!-- <h3 class="section-title"></h3> -->
+                </header>
+                <h6 style="padding-top: 90px;"></h6>
+                <div class="timeline" style="padding-top: 0px;" >
+                    <div  data-aos="fade-right" data-aos-delay="100"  data-aos-duration="1500" class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2014 - 2016</div>
+                            <h2>Intermediate</h2>
+                            <h4> FSc Pre-Engineering </h4>
+                            <p>
+                                Punjab College on Information Technology, Rawalpindi
+                            </p>
+                        </div>
+                    </div>
+                    <div  data-aos="fade-left" data-aos-delay="100" data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2017 - 2021</div>
+                            <h2>Graduation</h2>
+                            <h4>Bachelor of Science in Software Engineering (BSSE)</h4>
+                            <p>
+                                Computer Science Department, COMSATS University, Islamabad       </p>
+                        </div>
+                    </div>
+                    <!-- <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+        
+
+        
+
+            <!--  ======================== Brand Area ==============================  -->
+
+            <!-- <section class="brand-area">
+               
+                <div class="container-fluid">
+                    <h2 class="section-title">Contact</h2>
+                   
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12">
+                            <div class="first-row row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo1.png" alt="Brand-1 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo2.png" alt="Brand-2 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo4.png" alt="Brand-4">
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo5.png" alt="Brand-5 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo6.png" alt="Brand-6">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo7.png" alt="Brand-7 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo8.png" alt="Brand-8 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand">
+                                        <img src="./img/brands/logo9.png" alt="Brand-9">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    <!-- <div class="col-xl-6 col-lg-12 col-md-12">
+                            <div class="first-row row d-flex justify-content-center" style="background-color: antiquewhite;">
+                                <div class="col-lg-4 col-md-6 col-sm-6" style="background-color: rgb(194, 120, 24);">
+                                    <div class="single-brand d-flex justify-content-center">
+                                        <img src="./assets/img/brands/logo1.png" alt="Brand-1 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand d-flex justify-content-center">
+                                        <img src="./assets/img/brands/logo2.png" alt="Brand-2 ">
+                                    </div>
+                                </div>
+                                 <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="single-brand d-flex justify-content-center">
+                                        <img src="./assets/img/brands/logo3.png" alt="Brand-3 ">
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div> -->
+                    <!-- </div>
+                </div>
+            </section> -->
+    
+            <!--  ======================== End Brand Area ==============================  -->
+    
+
+          
+        <section class="services-area" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title  d-flex justify-content-center">
+                        <!-- <h1 class="text-uppercase title-text">Services Offers</h1> -->
+                        <h2 class="section-title">Contact</h2>
+                        <!-- <p >
+                            I offered my services in the following companies
+                        </p> -->
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <div class="services" id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/gmail.png" width="70px"  alt="Services-1" class="text-center ">
+                                    <!-- <i class='bx bx-mail-send cont__icon' ></i> -->
+                                    <!-- <i class='bx bxl-react skills__icon'></i> -->
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title  ">Email</h5>
+                                    <p class="card-text text-secondary font-roboto">
+                                     idrees0066@gmail.com
+                                    </p>
+                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center d-flex justify-content-center" >
+                            <div class="services"  id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/phone.png" width="70px"  alt="Services-2">
+                                    <!-- <i class='bx bxl-phone-call cont__icon' ></i> -->
+                                    <!-- <i class='bx bxs-phone-call cont__icon' ></i> -->
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title ">Phone</h5>
+                                    <p class="card-text text-secondary font-roboto">
+                                       0323 5671544
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-3 col-md-6 col-sm-12 text-center d-flex justify-content-center" >
+                            <div class="services"  id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/linkedin.png" width="70px" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title ">linkedin</h5>
+                                    <a href=" https://www.linkedin.com/in/idrees-ahmed-aa71491b6" class="card-text text-secondary font-roboto" id="contact_text" >
+                                        https://www.linkedin.com/in/idrees-ahmed-aa71491b6
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <div class="services" id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/linkedin.png" width="70px"  alt="Services-1" class="text-center ">
+                                    <!-- <i class='bx bx-mail-send cont__icon' ></i> -->
+                                    <!-- <i class='bx bxl-react skills__icon'></i> -->
+                                </div>
+                                <div class="card-body text-center">
+                                    <a href=" https://www.behance.net/idrees_ahmed" target="_blank">
+                                    <h5 class="card-title  ">linkedin</h5>
+                                    <!-- <a href=" https://www.linkedin.com/in/idrees-ahmed-aa71491b6" class="card-text text-secondary font-roboto" id="contact_text" >
+                                        https://www.linkedin.com/in/idrees-ahmed-aa71491b6
+                                    </a> -->
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center d-flex justify-content-center">
+                            <!-- <a href=" https://www.behance.net/idrees_ahmed"> -->
+                            <div class="services" id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/behance.png" width="70px"  alt="Services-1" class="text-center ">
+                                    <!-- <i class='bx bx-mail-send cont__icon' ></i> -->
+                                    <!-- <i class='bx bxl-react skills__icon'></i> -->
+                                </div>
+                                <div class="card-body text-center">
+                                      <a href=" https://www.behance.net/idrees_ahmed" target="_blank">
+                                    <h5 class="card-title  ">Behance</h5>
+                                    <!-- <p>
+                                        https://www.behance.net/idrees_ahmed
+                                    </p> -->
+                                    <!-- <a href=" https://www.behance.net/idrees_ahmed" class="card-text text-secondary font-roboto" id="contact_text" >
+                                             https://www.behance.net/idrees_ahmed
+                                  
+                                    </a> -->
+                                </a>
+                                </div>
+                            </div>
+                        <!-- </a> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                            <div class="services" id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/behance.png" width="70px"  alt="Services-1" class="text-center ">
+                                   
+                                <div class="card-body text-center">
+                                    <h5 class="card-title  ">Behance</h5>
+                                    <a href=" https://www.behance.net/idrees_ahmed" class="card-text text-secondary font-roboto" id="contact_text" >
+                                             https://www.behance.net/idrees_ahmed
+                                       
+                                    </a>
+                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 text-center d-flex justify-content-center" >
+                            <div class="services"  id="ser">
+                                <div class="sevices-img text-center py-4 d-flex justify-content-center">
+                                    <img src="./assets/img/github.png" width="70px"  alt="Services-2">
+                            
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title ">Github</h5>
+                                    <p class="card-text text-secondary font-roboto" id="contact_text">
+                                        https://www.github.com/idrees_ahmed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                </div> -->
+            </div>
+        </section>
+    
+
+            <!--===== CONTACT =====-->
+            <!-- <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section> -->
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <!-- <p class="footer__title">Marlon</p> -->
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!-- JavaScript Libraries -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
