@@ -559,7 +559,9 @@ a:focus {
 
 .experience .timeline {
     position: relative;
-    width: 100%;
+    width: 80%;
+    /* background-color: cornflowerblue; */
+   
 }
 
 .experience .timeline::after {
