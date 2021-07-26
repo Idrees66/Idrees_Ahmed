@@ -145,11 +145,12 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'am Idrees</h2>
-                        <p class="about__text">An Enthusiastic Software Engineer who is passionate about 
-                            coding and design. For the past 1.5 years, I have been working 
-                            on React Native and have worked on multiple mobile apps. I 
+                        <p class="about__text">I am impassioned Software Engineer who loves problem solving 
+                            and designing front ends. I have expertise in React Native
+                            development. I have been working on React Native for the past 
+                            1.5 years. I have worked on multiple mobile apps. I 
                             have worked on React Native, Firebase, JavaScript, React.JS, 
-                            Node.js..</p>           
+                            Node.js.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -267,40 +268,48 @@
 
                 <div class="work__container bd-grid">
                     <div class="work__img">
+                        <a href="https://www.behance.net/gallery/123965829/Weather-App" target="_blank" >
+                            <img src="assets/img/weatherApp.jpeg" alt="">
+                        </a>
+                        <p id="projectTitle">Weather App</p>
+                    </div>
+
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/116167621/Moodle" target="_blank" >
+                            <img src="assets/img/CreditSharingApp.png" alt="">
+                        </a>
+                        <h3 id="projectTitle">Credit Sharing App</p>
+                    </div>
+
+                    <div class="work__img">
                         <a href="https://www.behance.net/gallery/116443435/Poshish-Mobile-App" target="_blank">
-                            <img src="assets/img/t1.PNG" alt="">
+                            <img src="assets/img/Poshish.png" alt="">
                         </a>
                         <p id="projectTitle">Poshish Mobile App</p>
                     </div>
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/116167621/Moodle" target="_blank" >
-                            <img src="assets/img/t2.PNG" alt="">
-                        </a>
-                        <h3 id="projectTitle">Moodle Exchange App</p>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/115930015/Shopping-Store" target="_blank" >
-                            <img src="assets/img/t3.PNG" alt="">
-                        </a>
-                        <p id="projectTitle">Kshkaat E-Commerce App</p>
-                    </div>
-                    <div class="work__img">
+                    <!-- <div class="work__img">
                         <a href="https://www.behance.net/gallery/115721225/Shoe-Store-E-commerce-Application" target="_blank" >
                             <img src="assets/img/t4cop.PNG" alt="">
                         </a>
                         <p id="projectTitle">Shoe Store E-commerce App</p>
+                    </div> -->
+                    <div class="work__img">
+                        <a href="https://www.behance.net/gallery/123998069/KidsAR-Mobile-App" target="_blank" >
+                            <img src="assets/img/kidsarposter.jpeg" alt="">
+                        </a>
+                        <p id="projectTitle">KidsAR Mobile App</p>
                     </div>
                     <div class="work__img">
-                        <a href="https://www.behance.net/gallery/104565689/Furniture-Shop-App" target="_blank" >
-                            <img src="assets/img/t5.PNG" alt="">
+                        <a href="https://www.behance.net/gallery/115930015/Shopping-Store" target="_blank" >
+                            <img src="assets/img/Kshkaat.png" alt="">
                         </a>
-                        <p id="projectTitle">Furniture Shop App</p>
+                        <p id="projectTitle">Kshkaat E-Commerce App</p>
                     </div>
                     <div class="work__img">
-                        <a href="https://www.behance.net/gallery/104767675/Music-App-design" target="_blank" >
-                            <img src="assets/img/t6.PNG" alt="">
+                        <a href="https://www.behance.net/gallery/123756179/Smart-Police-System" target="_blank" >
+                            <img src="assets/img/sps1.png" alt="">
                         </a>
-                        <p id="projectTitle">Music App</p>
+                        <p id="projectTitle">Smart Police System</p>
                     </div>
                 </div>
             </section>
@@ -570,7 +579,7 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title ">Phone</h5>
                                     <p class="card-text text-secondary font-roboto">
-                                       0323 5671544
+                                       +923235671544
                                     </p>
                                 </div>
                             </div>
@@ -597,8 +606,9 @@
                                     <!-- <i class='bx bxl-react skills__icon'></i> -->
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href=" https://www.behance.net/idrees_ahmed" target="_blank">
+                                    <a href="https://www.linkedin.com/in/idrees-ahmed-aa71491b6" target="_blank">
                                     <h5 class="card-title  ">linkedin</h5>
+                    
                                     <!-- <a href=" https://www.linkedin.com/in/idrees-ahmed-aa71491b6" class="card-text text-secondary font-roboto" id="contact_text" >
                                         https://www.linkedin.com/in/idrees-ahmed-aa71491b6
                                     </a> -->
@@ -618,6 +628,9 @@
                                 <div class="card-body text-center">
                                       <a href=" https://www.behance.net/idrees_ahmed" target="_blank">
                                     <h5 class="card-title  ">Behance</h5>
+                                    <p class="card-text text-secondary font-roboto">
+                                        behance.net/idrees_ahmed
+                                     </p>
                                     <!-- <p>
                                         https://www.behance.net/idrees_ahmed
                                     </p> -->
